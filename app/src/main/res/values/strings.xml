@@ -1,6 +1,10 @@
 <resources>
     <string name="app_name">My Movie List</string>
+
+    <!-- Menu Entries -->
     <string name="title_home">Home</string>
-    <string name="title_dashboard">Dashboard</string>
-    <string name="title_notifications">Notifications</string>
+    <string name="title_discussion">Discussion</string>
+    <string name="title_discover">Discover</string>
+    <string name="title_my_list">My List</string>
+
 </resources>

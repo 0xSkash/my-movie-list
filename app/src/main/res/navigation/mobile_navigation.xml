@@ -7,19 +7,24 @@
 
     <fragment
         android:id="@+id/navigation_home"
-        android:name="de.skash.movielist.ui.home.HomeFragment"
+        android:name="de.skash.movielist.feature.home.HomeFragment"
         android:label="@string/title_home"
         tools:layout="@layout/fragment_home" />
 
     <fragment
-        android:id="@+id/navigation_dashboard"
-        android:name="de.skash.movielist.ui.dashboard.DashboardFragment"
-        android:label="@string/title_dashboard"
-        tools:layout="@layout/fragment_dashboard" />
+        android:id="@+id/navigation_discussion"
+        android:name="de.skash.movielist.feature.discussion.DiscussionFragment"
+        android:label="@string/title_discussion" />
 
     <fragment
-        android:id="@+id/navigation_notifications"
-        android:name="de.skash.movielist.ui.notifications.NotificationsFragment"
-        android:label="@string/title_notifications"
-        tools:layout="@layout/fragment_notifications" />
+        android:id="@+id/navigation_discover"
+        android:name="de.skash.movielist.feature.discover.DiscoverFragment"
+        android:label="@string/title_discover" />
+
+    <fragment
+        android:id="@+id/navigation_my_list"
+        android:name="de.skash.movielist.feature.mylist.MyListFragment"
+        android:label="@string/title_my_list" />
+
+
 </navigation>
